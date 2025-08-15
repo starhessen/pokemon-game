@@ -1,0 +1,26 @@
+body {
+  font: 1em sans-serif;
+  background-color: lightblue;
+  text-align: center;
+}
+img {
+  image-rendering: auto;
+  height: 50vw;
+  width: 50vw;
+  cursor: pointer;
+}
+img:active {
+  rotate: 20deg;
+  animation-duration: 200ms;
+}
+
+h1 {
+  color: #ffcb05;
+
+  text-shadow: -2px -2px 0 #2a75bb, 2px -2px 0 #2a75bb, -2px 2px 0 #2a75bb,
+    2px 2px 0 #2a75bb;
+}
+#score {
+  font-weight: bold;
+  font-size: 20px;
+}

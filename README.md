@@ -1,1 +1,2 @@
-pokemin api clicker game
+Pokemon api clicker game
+

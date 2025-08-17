@@ -1,2 +1,1 @@
-Pokemon api clicker game
-
+Pokemon api clicker game + postregSQL backend to save the score

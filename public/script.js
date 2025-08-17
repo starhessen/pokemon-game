@@ -6,6 +6,7 @@ const scoreDisplay = document.getElementById("score");
 const pokemonNameDisplay = document.getElementById("pokemon-name");
 
 pokemon.addEventListener("click", async () => {
+  if (score === 0) prompt("Dein Name:");
   // Score erhöhen
   score++;
   scoreDisplay.textContent = score;
